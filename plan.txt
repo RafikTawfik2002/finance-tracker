@@ -1,0 +1,17 @@
+Backend:
+
+ 
+ - userAppInfo
+    - listTypes - [type] 
+ 
+ - type:
+    - name: string
+
+ - entry:
+    - amount - float
+    - desc - string
+    - assets - boolean
+    - type - type
+
+    - createdAt 
+    
